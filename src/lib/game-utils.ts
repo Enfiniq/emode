@@ -39,7 +39,7 @@ export const canAccessDay = (
   return false;
 };
 
-export const GAME_LAUNCH_DATE = new Date("2025-07-21");
+export const GAME_LAUNCH_DATE = new Date("2025-07-22");
 
 export const isDayUnlockedByDate = (dayNumber: number): boolean => {
   const now = new Date();

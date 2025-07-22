@@ -1,0 +1,382 @@
+[
+  {
+    "day": 1,
+    "title": "Math & Sequence",
+    "lore": "The Emoliens communicate through numbers and patterns. Their first message contains mathematical secrets that spell out their world's name.",
+    "instruction": "Solve mathematical puzzles and sequences. Use algebra, sequences, and advanced mathematical concepts to reveal hidden messages.",
+    "levels": {
+      "1": [
+        {
+          "type": "complex-algebra",
+          "cipher": "5x² - 350x + 345 = 0",
+          "instruction": "Calculate: Use quadratic formula to solve equation → Take the positive root → Convert numeric result to ASCII character",
+          "clue": "Mathematical symbol: Represents energy in E=mc²",
+          "answer": "E"
+        }
+      ],
+      "2": [
+        {
+          "type": "geometric-sequence",
+          "cipher": "In a geometric sequence, the common ratio is 3, the first term is 109/13. Find the sum of the first 3 terms",
+          "instruction": "Calculate: Use geometric sequence formula → Solve for sum or first 3 terms → Convert numeric result to ASCII character",
+          "clue": "Mathematical symbol: Represents slope in linear equations",
+          "answer": "m"
+        }
+      ],
+      "3": [
+        {
+          "type": "trigonometric-riddle",
+          "cipher": "Solve: 2sin²(θ) + 3cos(θ) - 3 = 0 for θ in [0, π]. Find cos(θ).",
+          "instruction": "Calculate: Apply trigonometric identity → Solve quadratic equation → Convert numeric solution to matching letter shape",
+          "clue": "Mathematical symbol: Origin point where x and y axes intersect (0,0)",
+          "answer": "o"
+        }
+      ],
+      "4": [
+        {
+          "type": "complex-variable-algebra",
+          "cipher": "x² - 2dx  + d² = 0, Find x.",
+          "instruction": "Calculate: Factor the perfect square trinomial → Solve for variable x",
+          "clue": "Letter type: 4th letter of the alphabet",
+          "answer": "d"
+        }
+      ],
+      "5": [
+        {
+          "type": "euler-series",
+          "cipher": "Calculate the mathematical constant: 1/0! + 1/1! + 1/2! + 1/3! + 1/4! + ... What letter represents this constant?",
+          "instruction": "Calculate: Sum the first few terms of the factorial series → Identify mathematical constant → Provide the letter symbol for this constant",
+          "clue": "Mathematical symbol: Euler's number, base of natural logarithms",
+          "answer": "e"
+        }
+      ]
+    }
+  },
+  {
+    "day": 2,
+    "title": "Emoji Cipher",
+    "lore": "The Emoliens sent you emoji puzzles today. They use emojis to share messages. Decode them carefully.",
+    "instruction": "Solve the emoji puzzles by looking at the level type. Use your thinking and knowledge of emoji names and meanings.",
+    "levels": {
+      "1": [
+        {
+          "type": "semantic",
+          "cipher": "🤝🧍‍♂️🧍‍♀️",
+          "instruction": "Semantic analysis: Interpret combined meaning of all emojis → Derive single concept word",
+          "clue": "Pronoun: First person plural subject pronoun",
+          "answer": "we"
+        }
+      ],
+      "2": [
+        {
+          "type": "letter-mapping",
+          "cipher": "🐜🦁🐋🥑🛳️🐍",
+          "instruction": "Letter extraction: Identify each emoji name in English → Extract first letter from each name → Concatenate letters sequentially",
+          "clue": "Adverb: Meaning 'at all times' or 'continuously'",
+          "answer": "always"
+        }
+      ],
+      "3": [
+        {
+          "type": "emoji-mapping",
+          "cipher": "🎯🏋️🚀",
+          "instruction": "Semantic sequence: Interpret emojis as progressive actions → Derive single concept word",
+          "clue": "Verb: To make great effort to achieve something",
+          "answer": "strive"
+        }
+      ],
+      "4": [
+        {
+          "type": "complex-letter-mapping",
+          "cipher": "🐸🍩🦒",
+          "instruction": "Letter extraction: Name each emoji in English → Extract first letter from each → Arrange letters to form word",
+          "clue": "Preposition: Indicating purpose or intended recipient",
+          "answer": "for"
+        }
+      ],
+      "5": [
+        {
+          "type": "complex-semantic",
+          "cipher": "🤔📦❓",
+          "instruction": "Semantic synthesis: Combine conceptual meanings → Derive interrogative word",
+          "clue": "Interrogative pronoun: Used to ask about identity or nature",
+          "answer": "what"
+        }
+      ]
+    }
+  },
+  {
+    "day": 3,
+    "title": "Caesar Shift",
+    "lore": "The Emoliens have learned Earth's ancient Roman cipher. They shift letters to hide their wisdom about desires and possessions.",
+    "instruction": "Apply Caesar shifts to decode the messages. Pay attention to shift patterns and hints within the text.",
+    "levels": {
+      "1": [
+        {
+          "type": "simple-forward-shift",
+          "cipher": "vd",
+          "instruction": "Apply Caesar cipher: Shift each letter 1 position forward in alphabet",
+          "clue": "Pronoun: First person plural subject (opposite of 'they')",
+          "answer": "we"
+        }
+      ],
+      "2": [
+        {
+          "type": "simple-backward-shift",
+          "cipher": "dboopu",
+          "instruction": "Apply Caesar cipher: Shift each letter 1 position backward in alphabet",
+          "clue": "Modal verb: Expressing inability (can + not)",
+          "answer": "cannot"
+        }
+      ],
+      "3": [
+        {
+          "type": "forward-sequential-shift",
+          "cipher": "gysa",
+          "instruction": "Apply sequential Caesar shifts forward: 1st letter +1 → 2nd letter +2 → 3rd letter +3 → 4th letter +4",
+          "clue": "Verb: To possess or own something",
+          "answer": "have"
+        }
+      ],
+      "4": [
+        {
+          "type": "backward-sequential-shift",
+          "cipher": "bpg",
+          "instruction": "Apply sequential Caesar shifts backward: 1st letter -1 → 2nd letter -2 → 3rd letter -3",
+          "clue": "Conjunction: Logical operator connecting two elements (& symbol)",
+          "answer": "and"
+        }
+      ],
+      "5": [
+        {
+          "type": "hint-embedded-shift",
+          "cipher": "he",
+          "instruction": "Complex shift: Shift letters by their alphabet position (a = 1, b =2) → Reverse string → Apply backward shifts by 1,2 respectively",
+          "clue": "Preposition: Indicating location within or inside",
+          "answer": "in"
+        }
+      ]
+    }
+  },
+  {
+    "day": 4,
+    "title": "Symbol Cipher",
+    "lore": "The Emoliens speak in symbols now, mixing their script with Earth numbers and mathematical symbols. They warn us about neglecting what we have.",
+    "instruction": "Decode symbols, numbers, and mathematical notations to reveal the message. Use symbol-to-letter mappings.",
+    "levels": {
+      "1": [
+        {
+          "type": "simple-symbol-mix",
+          "cipher": "d01^9",
+          "instruction": "Character substitution: Apply symbol-to-letter mapping",
+          "clue": "Verb: Present continuous form of 'do'",
+          "answer": "doing"
+        }
+      ],
+      "2": [
+        {
+          "type": "number-letter-mix",
+          "cipher": "50",
+          "instruction": "Character substitution: Apply number-to-letter mapping",
+          "clue": "Adverb: Meaning 'therefore' or 'in this manner'",
+          "answer": "so"
+        }
+      ],
+      "3": [
+        {
+          "type": "complex-symbol-number-mix",
+          "cipher": "^39|3(+",
+          "instruction": "Character substitution: Apply number-to-letter mapping",
+          "clue": "Verb: To fail to care for or pay attention to something",
+          "answer": "neglect"
+        }
+      ],
+      "4": [
+        {
+          "type": "math-symbol-mix",
+          "cipher": "+#3",
+          "instruction": "Character substitution: Apply symbol-to-letter mapping",
+          "clue": "Article: Definite article, most common English word",
+          "answer": "the"
+        }
+      ],
+      "5": [
+        {
+          "type": "super-complex-mix",
+          "cipher": "+®345µ®£5",
+          "instruction": "Character substitution: Apply symbol/number-to-letter mapping",
+          "clue": "Noun: Valuable possessions or riches (plural form)",
+          "answer": "treasures"
+        }
+      ]
+    }
+  },
+  {
+    "day": 5,
+    "title": "Number System Cipher",
+    "lore": "The Emoliens reveal the final part of their message through different number systems. They speak of what we already hold dear.",
+    "instruction": "Convert between number systems (decimal, binary, hex, etc.) then to ASCII characters to form words.",
+    "levels": {
+      "1": [
+        {
+          "type": "decimal-system",
+          "cipher": "97 108 114 101 97 100 121",
+          "instruction": "ASCII conversion: Convert each decimal number directly to ASCII character",
+          "clue": "Adverb: Meaning 'by this time' or 'previously'",
+          "answer": "already"
+        }
+      ],
+      "2": [
+        {
+          "type": "octal-system",
+          "cipher": "151 156",
+          "instruction": "Base conversion + ASCII: Convert octal to decimal → Convert decimal to ASCII characters",
+          "clue": "Preposition: Indicating location within or inside",
+          "answer": "in"
+        }
+      ],
+      "3": [
+        {
+          "type": "binary-system",
+          "cipher": "01110000 01110111 01110101",
+          "instruction": "Arithmetic + Base conversion: Subtract 1,2,3 from each binary → Convert modified binary to decimal → Convert decimal to ASCII",
+          "clue": "Pronoun: Possessive form of 'we'",
+          "answer": "our"
+        }
+      ],
+      "4": [
+        {
+          "type": "hexadecimal-system",
+          "cipher": "6C 76 64 75 71",
+          "instruction": "Arithmetic + Base conversion: Subtract 5,4,3,2,1 from each hex value → Convert modified hex directly to ASCII characters",
+          "clue": "Verb: To hold firmly or understand completely",
+          "answer": "grasp"
+        }
+      ],
+      "5": [
+        {
+          "type": "mixed-number-systems",
+          "cipher": "112 145₈ 72₁₆ 01101001₂ 6F₁₆ &#100;",
+          "instruction": "Multi-base conversion: Convert each from respective base (decimal, octal, hex, binary, hex, HTML) to ASCII → Find symbol matching ASCII character name",
+          "clue": "Punctuation: Period mark, sentence terminator",
+          "answer": "."
+        }
+      ]
+    }
+  },
+  {
+    "day": 6,
+    "title": "Coordinate Cipher",
+    "lore": "The Emoliens send their final coordinated message through grid positions. They urge us to protect our world and ourselves.",
+    "instruction": "Use coordinate systems to decode letters from grid (6x5) positions. Different ordering systems apply to each level.",
+    "levels": {
+      "1": [
+        {
+          "type": "ascending-order",
+          "cipher": "A4 C3",
+          "instruction": "Grid mapping: Use 6×5 coordinate grid (A-F rows, 1-5 columns) → Map coordinates to letters in ascending alphabetical order",
+          "clue": "Adverb: Meaning 'in this way' or 'therefore'",
+          "answer": "So"
+        }
+      ],
+      "2": [
+        {
+          "type": "descending-order",
+          "cipher": "B2 B5 E1 D4",
+          "instruction": "Grid mapping: Use 6×5 coordinate grid → Apply reverse alphabetical order mapping (Z-A instead of A-Z)",
+          "clue": "Verb: To rescue or protect from harm or danger",
+          "answer": "Save"
+        }
+      ],
+      "3": [
+        {
+          "type": "row-reversed",
+          "cipher": "B1 F1 A3 E4 E2",
+          "instruction": "Grid mapping: Use 6×5 grid → Apply row-wise letter reversal (letters within each row are in reverse order)",
+          "clue": "Noun: Our planet, third from the Sun",
+          "answer": "Earth"
+        }
+      ],
+      "4": [
+        {
+          "type": "column-reversed",
+          "cipher": "A2 A5 D1 E4",
+          "instruction": "Grid mapping: Use 6×5 grid → Apply column-wise reversal (columns are in reverse order)",
+          "clue": "Verb: To rescue or protect from harm or danger",
+          "answer": "Save"
+        }
+      ],
+      "5": [
+        {
+          "type": "order-flipped",
+          "cipher": "E5 C5 E1",
+          "instruction": "Grid mapping: Use transposed 5×6 grid (swap rows/columns: 1-5 rows, A-F columns) → Map coordinates to letters",
+          "clue": "Pronoun: Second person singular/plural",
+          "answer": "You"
+        }
+      ]
+    }
+  },
+  {
+    "day": 7,
+    "title": "Mixed Challenges",
+    "lore": "The Emoliens send their deepest philosophical message through a mixture of all cipher types. They question the nature of reality itself.",
+    "instruction": "Use knowledge from all previous days to decode these mixed challenges. Each level uses different cipher types.",
+    "levels": {
+      "1": [
+        {
+          "type": "complex-math-sequence",
+          "cipher": "(Prime(14) + Fibonacci(8) + 1) (Fibonacci(11) - Even(3))",
+          "instruction": "Multi-step calculation: Find 14th prime + 8th Fibonacci + 1 → Find 11th Fibonacci - 3rd even → Convert both to ASCII",
+          "clue": "Adverb: Indicating manner or method ('in the way that')",
+          "answer": "As"
+        }
+      ],
+      "2": [
+        {
+          "type": "emoji-concept-cipher",
+          "cipher": "🤔→⚖️→🎭→🎲→❓",
+          "instruction": "Each emoji represents a concept related to uncertainty. Take the letters of each concept and rearrange them to form a common adverb expressing possibility.",
+          "clue": "Adverb: Expressing possibility or uncertainty",
+          "answer": "Maybe"
+        }
+      ],
+      "3": [
+        {
+          "type": "multi-caesar-cipher",
+          "cipher": "hs'dt",
+          "instruction": "Complex Caesar sequence: Apply shifts (-4,-3,-2,-1) → Reverse string → Apply shifts (+4,+3,+2,+1) respectively",
+          "clue": "Contraction: 'We are' in shortened form",
+          "answer": "We're"
+        }
+      ],
+      "4": [
+        {
+          "type": "symbol-number-mix",
+          "cipher": "!++µ",
+          "instruction": "Character substitution + Caesar: Apply symbol-to-letter mapping → Apply Caesar shifts (+1,+1,-1,-1) to resulting letters",
+          "clue": "Adverb: Meaning 'only' or 'simply'",
+          "answer": "Just"
+        }
+      ],
+      "5": [
+        {
+          "type": "multi-base-system",
+          "cipher": "01110101₂ 6E₁₆ 151₈ (10000000₂ - 1111₂) 75₁₆ (6A₁₆ - 5₁₆)",
+          "instruction": "Arithmetic + Multi-base conversion: Perform bracketed arithmetic → Convert each from base to decimal → Convert to ASCII → Write indefinite article",
+          "clue": "Article: Indefinite article for singular nouns",
+          "answer": "a"
+        }
+      ],
+      "6": [
+        {
+          "type": "coordinate-caesar-mix",
+          "cipher": "D4 D2 C4 A1 A3",
+          "instruction": "Grid mapping + Caesar: Use 6×5 grid with Z-A mapping → Extract letters → Apply Caesar shifts (+1,-1,+1,-1,+1) respectively",
+          "clue": "Noun: Aspiration or vision experienced during sleep",
+          "answer": "Dream"
+        }
+      ]
+    }
+  }
+]
