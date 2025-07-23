@@ -89,7 +89,7 @@
         {
           "type": "complex-letter-mapping",
           "cipher": "🐸🍩🦒",
-          "instruction": "Letter extraction: Name each emoji in English → Extract first letter from each → Arrange letters to form word",
+          "instruction": "Letter extraction: Name each emoji in English → Extract first, second and third letter from each → Arrange letters to form word",
           "clue": "Preposition: Indicating purpose or intended recipient",
           "answer": "for"
         }
